@@ -89,13 +89,12 @@ aws configure set default.output "$AWS_OUTPUT_FORMAT"
 
 echo "✅ AWS CLI installed and configured successfully!"
 
-echo "Docker Version:"
-docker --version
 
-echo "Docker Compose Version:"
-docker-compose --version
+✅ docker --version 
 
-echo "Current AWS Configuration:"
+✅ docker-compose --version
+
+echo "✅ Current AWS Configuration:"
 aws configure list
 
 ```
