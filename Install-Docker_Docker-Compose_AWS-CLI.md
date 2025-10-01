@@ -88,6 +88,13 @@ aws configure set default.region "$AWS_DEFAULT_REGION"
 aws configure set default.output "$AWS_OUTPUT_FORMAT"
 
 echo "✅ AWS CLI installed and configured successfully!"
+
+echo "Docker Version:"
+docker --version
+
+echo "Docker Compose Version:"
+docker-compose --version
+
 echo "Current AWS Configuration:"
 aws configure list
 
